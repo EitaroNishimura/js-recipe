@@ -27,6 +27,15 @@ x = 100 % x
 console.log(x)
 x /= 6
 console.log(x)
+
+console.log(1 === "1")
+
+console.log(1 + 2 * 3)
+console.log(2 < 5 && 5 < 10)
+console.log((1 + 2) * 3)
+console.log(-10 < -5 < -1)
+console.log(-10 < -5 && -5 < -1)
+
 // 定数には値を再代入できない
 teisu = 100 // エラー
 
