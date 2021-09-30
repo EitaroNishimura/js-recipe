@@ -3,16 +3,30 @@ let hensu
 
 // 変数には値を代入（割り当て）できる
 hensu = 42
+console.log(hensu)
 
 // 変数には値を再代入できる
 hensu = 100
+console.log(100)
 
 // * 多くの場合、変数には宣言と同時に値を代入する
 let hensu2 = 42
+console.log(hensu2)
 
 // * const キーワードを使うと、定数になる
 const teisu = 42
+console.log(teisu)
 
+let x = 5
+console.log(x)
+x += 2
+console.log(x)
+x *= 5
+console.log(x)
+x = 100 % x
+console.log(x)
+x /= 6
+console.log(x)
 // 定数には値を再代入できない
 teisu = 100 // エラー
 
