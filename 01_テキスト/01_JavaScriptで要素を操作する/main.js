@@ -1,6 +1,6 @@
 // 要素を取得する
 const element = document.getElementById("elementId")
-console.log("「要素を取得する」で取得した要素 →", element)
+console.log(element)
 
 // 要素を取得する - 発展：子要素を取得する
 const buttons = document.getElementById("buttons")
